@@ -1,0 +1,6 @@
+@relation MarketBasket
+
+@attribute AgeofVisitor{Teenage,Young,Middle-age,Senior}
+
+@data
+Teenage

@@ -1,0 +1,17 @@
+@relation Mobile_group
+
+@attribute age{young,old}
+@attribute education{yes,no}
+@attribute income{high,mid,low}
+@attribute place{city,village}
+@attribute occupation{stud,bs,job,non}
+@attribute phone{simple,smart,iphone}
+
+@data
+old,yes,high,city,non,smart
+old,no,low,village,non,simple
+young,yes,high,city,stud,iphone
+young,yes,mid,city,stud,smart
+young,yes,low,village,stud,smart
+young,yes,high,city,bs,iphone
+young,yes,mid,city,job,smart

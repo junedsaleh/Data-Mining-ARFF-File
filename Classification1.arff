@@ -1,0 +1,25 @@
+@relation MarketBasket
+
+@attribute AgeofVisitor{Teenage,Young,Middle-age,Senior}
+@attribute bodyLangugae{good,bad}
+@attribute familyBackground{good,bad}
+@attribute status{good,verygood,bad,verybad}
+
+@data
+
+Teenage,good,bad,good
+Teenage,bad,bad,verybad
+Teenage,bad,good,bad
+Teenage,good,good,verygood
+Young,good,bad,verybad
+Young,good,good,verygood
+Young,bad,bad,verybad
+Young,bad,good,verybad
+Middle-age,bad,bad,verybad
+Middle-age,bad,good,bad
+Middle-age,good,good,verygood
+Middle-age,good,bad,verybad
+Senior,bad,bad,verybad
+Senior,good,good,verygood
+Senior,bad,good,bad
+Senior,good,bad,good

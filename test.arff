@@ -1,0 +1,12 @@
+@relation Election
+
+@attribute occupation{bs,jb,non}
+@attribute previous_activity{excellent,good,avg}
+@attribute place{city,village}
+@attribute gdp{high,mid,low}
+@attribute age{young,old}
+@attribute ngh_con{spoil,well}
+@attribute win{bjp,cong,other}
+
+@data
+non,good,village,low,young,well,?

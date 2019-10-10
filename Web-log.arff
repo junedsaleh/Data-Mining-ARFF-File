@@ -1,0 +1,26 @@
+@relation MarketBasket
+
+@attribute AgeofVisitor{Teenage,Young,Middle-age,Senior}
+@attribute Gender{Male,Female}
+@attribute Income{Very-low,Low,High,Very-high}
+@attribute Home-page{Visited,Not-visited}
+@attribute Fashion{Visited,Not-visited}
+@attribute Mobile{Visited,Not-visited}
+@attribute Mobile-acccesories{Visited,Not-visited}
+@attribute Conmetics{Visited,Not-visited}
+@attribute Laptops{Visited,Not-visited}
+@attribute Camera{Visited,Not-visited}
+
+@data
+Teenage	Male	High	Visited	Not-visited	Visited	Visited	Not-visited	Not-visited	Visited
+Young	Male	High	Visited	Not-visited	Visited	Visited	Not-visited	Not-visited	Visited
+Middle-age	Female	Low	Not-visited	Visited	Visited	Not-visited	Visited	Visited	Not-visited
+Teenage	Female	Low	Not-visited	Not-visited	Visited	Not-visited	Not-visited	Visited	Visited
+Young	Male	Very-high	Visited	Not-visited	Visited	Visited	Not-visited	Visited	Visited
+Young	Male	High	Visited	Visited	Not-visited	Visited	Visited	Not-visited	Visited
+Middle-age	Male	High	Visited	Visited	Not-visited	Visited	Visited	Not-visited	Visited
+Senior	Female	Very-low	Not-visited	Visited	Not-visited	Visited	Not-visited	Visited	Not-visited
+Senior	Male	Very-high	Visited	Not-visited	Visited	Visited	Not-visited	Visited	Visited
+Middle-age	Male	High	Visited	Visited	Not-visited	Not-visited	Not-visited	Visited	Visited
+Senior	Male	High	Visited	Visited	Not-visited	Not-visited	Not-visited	Visited	Visited
+Teenage	Female	Very-low	Not-visited	Visited	Not-visited	Visited	Not-visited	Visited	Not-visited
